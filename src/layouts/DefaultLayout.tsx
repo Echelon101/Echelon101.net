@@ -47,7 +47,7 @@ const Layout = (props: React.PropsWithChildren<LayoutProps>) => {
             >
                 <nav>
                     <Link to="/" className={styles.logo}>
-                        OmenDarkly.net
+                        Echelon101.net
                     </Link>
                 </nav>
             </div>
