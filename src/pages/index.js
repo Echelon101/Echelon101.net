@@ -10,7 +10,7 @@ import {Steam, Twitch, Twitter, Youtube} from "@icons-pack/react-simple-icons";
 import {Axe, Gamepad2} from "lucide-react";
 
 const IndexPage = ({ data }) => <Layout topBarHome={true}>
-    <SEO description="OmenDarkly - Gamer, Coder, IT system administrator - Learn more about me here!" title="OmenDarkly" />
+    <SEO description="Echelon101 - Gamer, Coder, IT system administrator - Learn more about me here!" title="Echelon101" />
         <div className={styles.hero}>
             {/*<div className={styles.heroHalo}></div>
             <div className={styles.heroImage}>
@@ -26,7 +26,7 @@ const IndexPage = ({ data }) => <Layout topBarHome={true}>
             <div className={styles.heroBoxBg}></div>
             <div className={styles.heroBox}>
                 <div>
-                    <span className={styles.name}>OmenDarkly</span>
+                    <span className={styles.name}>Echelon101</span>
                     <span className={styles.description}>Gamer, IT system administrator, Coder</span>
                     
                     <a href="https://www.twitch.tv/sorcererofroarhaven" target="_blank" rel="noreferrer"><Twitch/> SorcererOfRoarhaven</a>
