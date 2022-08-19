@@ -52,7 +52,7 @@ $layoutTwoColBreakpoint: 800px;
             width: 400px;
             height: 400px;
             transition: transform .25s, clip-path .25s, width .25s, height .25s;
-    
+            transform: translate(-50%, 0);
             @media (max-width: $layoutTwoColBreakpoint) {
                 transform: translate(-50%, 0);
             }

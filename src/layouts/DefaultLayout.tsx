@@ -47,16 +47,23 @@ const Layout = (props: React.PropsWithChildren<LayoutProps>) => {
             >
                 <nav>
                     <Link to="/" className={styles.logo}>
-                        Unkn0wnCat.net
+                        OmenDarkly.net
                     </Link>
-                    <Link to="/videos">Videos</Link>
                 </nav>
             </div>
             <main className={styles.content}>{props.children}</main>
             <footer className={styles.footer}>
-                CC-BY-4.0 Kevin Kandlbinder |{" "}
+                &copy; Timo Strüker |{" "}
+                Website Designed by{" "}
                 <a
-                    href="https://kevink.dev/legal/about"
+                    href="https://kevink.dev/"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    Kevin Kandlbinder
+                </a> | {" "}
+                <a
+                    href="https://strueker.net/legal/about"
                     target="_blank"
                     rel="noreferrer"
                 >

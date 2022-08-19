@@ -2,10 +2,10 @@ import React, { useState } from "react";
 
 import { graphql } from "gatsby";
 
-import SEO from "../components/seo";
+import SEO from "../../../src/components/seo";
 
 import * as styles from "./videos.module.scss";
-import Layout from "../layouts/DefaultLayout";
+import Layout from "../../../src/layouts/DefaultLayout";
 
 const makeStyle = function (image) {
     return {

@@ -6769,7 +6769,7 @@ gatsby-source-youtube-v3@^3.0.2:
     gatsby-source-filesystem "^1.5.27"
     lodash "^4.17.5"
 
-gatsby-telemetry@^3.16.0, gatsby-telemetry@^3.17.0:
+gatsby-telemetry@^3.17.0:
   version "3.17.0"
   resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-3.17.0.tgz#de5b094340d714969ac5a5f01ed19999d3b9557e"
   integrity sha512-1N4uKj2Yj7AykLmwjsdOmNirf3UmP8CBXjj/LmWf5cLDVbdPqkirAlyD6uTeEliG5UFHPTlBsRi26v558mFYJQ==

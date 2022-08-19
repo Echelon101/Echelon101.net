@@ -46,14 +46,6 @@ module.exports = {
                 path: `${__dirname}/content`,
             },
         },
-        {
-            resolve: `gatsby-source-youtube-v3`,
-            options: {
-                channelId: ["UCCoZp-6_P3CVFj4clQ6uaeg"],
-                apiKey: process.env.YOUTUBE_API_KEY,
-                maxVideos: 60,
-            },
-        },
         `gatsby-transformer-remark`,
         `gatsby-plugin-sharp`,
         /*{
