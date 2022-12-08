@@ -69,7 +69,7 @@ function SEO({ description, lang, meta, title }) {
                 },
             ].concat(meta)}
         >
-            <script defer data-domain="echelon101.net" src="https://tracking.strueker.net/js/script.js"></script>
+            <script defer data-domain="echelon101.net" src="https://analytics.strueker.net/js/script.js"></script>
         </Helmet>
     );
 }
